@@ -1,0 +1,42 @@
+body {
+    background-color: deepskyblue;
+    align-items: baseline;
+}
+navbar-brand {
+    background-color: white;
+}
+table {
+    position: absolute;
+    width: 100%;
+}
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    flex-flow: column;
+    column-span: page;
+}
+tr.Courses {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    max-width: available;
+}
+tr.Completed {
+    background-color: green;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+tr.In_Progress {
+    background-color: yellow;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+tr.TBD {
+    background-color: red;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
